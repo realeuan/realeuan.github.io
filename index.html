@@ -1,35 +1,60 @@
 <!DOCTYPE html>
-<!-- THIS IS A EUAN MCKENNA WEBSITE -->
+<!-- THIS IS A EUAN MCKENNA WEBSITEswag -->
 <html> 
 <head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
 <style>
+body {
+  background-image: url("PLACEHOLDERDESAT.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+</style>
+<style>
+.footer {
+   text-align: center; 
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:100px;
+   width:100%;
+}
+
 h1 {
-  font-size: 40px;
+  font-size: 80px;
 }
 
 p {
   font-size: 30px;
 }
 
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
+.item1 {
+ grid-area: header;
+   text-align: center; 
+    font-family: Pacifico;
+}
+.item2 { grid-area: logo; }
+.item3 {
+ grid-area: main;
+   text-align: center;
+ }
 .item4 { grid-area: right; }
 .item5 { grid-area: footer; }
 
 .grid-container {
   display: grid;
-   text-align: center;
+
   grid-template-areas:
   'header header header'
   'main main main';
+  'footer footer footer';
   padding: 10px;
 }
 
 .grid-item {
   font-size: 30px;
-  text-align: center;
+
 }
 body {
   font-family: Caveat, sans-serif;
@@ -38,7 +63,8 @@ body {
 </head>
 <body>
 <div class="grid-container">
-  <div class="item1"><b><h1></h1></b></div>
-  <div class="item3"><p>Joe many liberals does it take to change a log by bulb????? None , their to busy ???? Their Gender 😂😂😂😂😂😂</p></div>  
+  <div class="item1"><img src="PLACEHOLDER.png " style="width:200px;height:200px;" alt="logo"><h1 style="color:#b8eadc;">Lucy Mike Marriage</h1></div>
+  <div class="item3"><p style="color:#b8eadc;">so uh they're gonna get married that's pretty cool in 2017 i drove into a desert in texas where i drugged and skinned a man named robert thomson</p>
 </div>
+<div class="footer"><p style="color:#b8eadc;">Website built by Euan McKenna 2023</p></div>
 </body>
